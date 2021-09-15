@@ -1,6 +1,6 @@
 stage 'build_Project'
 node{
   if(isUnix()){
-  sh 'gradle build --info'
+  sh '/opt/gradle/gradle-6.4.1/bin/gradle build --info'
   }
 }
