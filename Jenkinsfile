@@ -3,3 +3,4 @@ node{
   if(isUnix()){
   sh 'gradle build --info'
   }
+}
